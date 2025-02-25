@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loriyaan Suna</title>
+    <link rel="stylesheet" href="lori1style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xeg5cha.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vtj5lna.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Khand:wght@300;400;500;600;700&family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <nav class="nav">
+		<a class="nav-link" href="page1test.html">future</a>
+		<a class="nav-link" href="lori2.html">past</a>
+	</nav>
+    
+    <h1>Loriyaan Suna</h1>
+
+    <section class="verses">
+        <div class="verse" id="one">
+            <p>
+                Loriyaan suna neendein aayi
+                <br> 
+                लोरियाँ सूना नींदें आई
+                <br> 
+                Sing me a lullaby, I'm sleepy now
+            </p>
+        </div>
+        <div class="verse" id="two">
+            <p>
+                Thaki-thaki main jhapki aayi
+                <br> 
+                थकी-थकी मैं झपकी आई
+                <br> 
+                A little tired, about to doze off
+            </p>
+        </div>
+        <div class="verse" id="three">
+            <p>
+                Thodi si mohlat hai
+                <br> 
+                थोड़ी सी मोहलत है
+                <br> 
+                We only have a limited time
+            </p>
+        </div>
+        <div class="verse" id="four">
+            <p>
+                Kharcheingey hauley se
+                <br> 
+                खार्चिंगे हौले से
+                <br> 
+                So we'll spend it wisely
+            </p>
+        </div>
+        <div class="verse" id="five">
+            <p>
+                Gini chuni saansein main laayi
+                <br> 
+                गिनी चुनी सांसें मैं लाई
+                <br> 
+                I had come with a few chosen breaths
+            </p>
+        </div>
+    </section>
+
+
+    <section class="constellation-three">
+        <svg class="svg" width="150%" height="150%" viewBox="0 0 130 130">
+            <!-- New Constellation Shape (Lines between stars) -->
+            <polygon points="30,40 50,20 70,60 90,30 110,50" class="constellation-three" />
+    
+            <!-- Stars as circles -->
+            <circle cx="30" cy="40" r="2" class="star-three" onclick="showVerse('one')"></circle>
+            <circle cx="50" cy="20" r="2" class="star-three" onclick="showVerse('two')"></circle>
+            <circle cx="70" cy="60" r="2" class="star-three" onclick="showVerse('three')"></circle>
+            <circle cx="90" cy="30" r="2" class="star-three" onclick="showVerse('four')"></circle>
+            <circle cx="110" cy="50" r="2" class="star-three" onclick="showVerse('five')"></circle>
+        </svg>
+    </section>
+    
+    <script src="scripts.js"></script>
+
+    <h3>with every click, align the unfolding lyrics with the audio</h3>
+
+    <audio controls src="For-Aisha.mp3" class="audio-player"></audio>
+
+ </body>
+</html>

@@ -1,0 +1,214 @@
+body {
+    background: linear-gradient(45deg, #1a1a40, #3a2d6b, #5c1e63);
+    background-size: 200% 200%;
+    animation: gradientShift 10s ease infinite;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Star Container */
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+/* Individual Stars */
+.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    animation: shine 2s infinite alternate ease-in-out;
+}
+
+/* Random Glow Effect */
+@keyframes shine {
+    0% { opacity: 0.3; transform: scale(1); }
+    100% { opacity: 1; transform: scale(1.2); }
+}
+
+/* Background Gradient Animation */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Title Styles */
+h1 {
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 93px;
+    color: beige;
+    text-shadow: 0 0 5px rgba(255, 255, 230, 0.5), 0 0 10px rgba(255, 255, 230, 0.3);
+    transition: transform 0.3s ease; 
+}
+
+h1:hover {
+    transform: scale(1.1); 
+}
+
+a {
+    text-decoration: none; 
+}
+
+.audio-player {
+    position: absolute;
+    bottom: 20px;  /* Position from the bottom */
+    left: 20px;    /* Position from the left */
+    z-index: 100;  /* Ensure it's on top of other content if necessary */
+}
+
+
+
+
+
+
+/* Media Queries for screens between 1171px and 768px */
+@media screen and (max-width: 1171px) and (min-width: 768px) {
+    body {
+        background: linear-gradient(45deg, #1a1a40, #3a2d6b, #5c1e63); /* Keep the gradient */
+        background-size: 200% 200%;
+        animation: gradientShift 10s ease infinite;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* Star Container */
+    .stars {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        pointer-events: none;
+    }
+
+    /* Individual Stars */
+    .star {
+        position: absolute;
+        width: 2px;  /* Keep stars at a reasonable size */
+        height: 2px;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0.8;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+        animation: shine 2s infinite alternate ease-in-out;
+    }
+
+    /* Title Styles */
+    h1 {
+        font-family: "Eczar", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 60px; /* Adjusted font size for medium screens */
+        color: beige;
+        text-shadow: 0 0 5px rgba(255, 255, 230, 0.5), 0 0 10px rgba(255, 255, 230, 0.3);
+        transition: transform 0.3s ease; 
+        text-align: center; /* Keep the title centered */
+    }
+
+    h1:hover {
+        transform: scale(1.05); /* Slight hover effect */
+    }
+
+    /* Audio Player */
+    .audio-player {
+        position: fixed; /* Keep the audio player at the bottom */
+        bottom: 20px;
+        left: 50%; /* Center the player */
+        transform: translateX(-50%);
+        z-index: 100;
+        max-width: 70%; /* Limit the width for medium screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries for screens smaller than 768px (tablets and mobile devices) */
+@media screen and (max-width: 768px) {
+    body {
+        background: linear-gradient(45deg, #1a1a40, #3a2d6b, #5c1e63); /* Keep the gradient */
+        background-size: 200% 200%;
+        animation: gradientShift 10s ease infinite;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* Star Container */
+    .stars {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        pointer-events: none;
+    }
+
+    /* Individual Stars */
+    .star {
+        position: absolute;
+        width: 2px;  /* Smaller stars for mobile */
+        height: 2px;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0.8;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+        animation: shine 2s infinite alternate ease-in-out;
+    }
+
+    /* Title Styles */
+    h1 {
+        font-family: "Eczar", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 33px; /* Smaller font size on mobile */
+        color: beige;
+        text-shadow: 0 0 5px rgba(255, 255, 230, 0.5), 0 0 10px rgba(255, 255, 230, 0.3);
+        transition: transform 0.3s ease; 
+        text-align: center; /* Center the title on smaller screens */
+    }
+
+    h1:hover {
+        transform: scale(1.05); /* Slightly smaller hover scale on mobile */
+    }
+
+    /* Audio Player */
+    .audio-player {
+        position: fixed; /* Fix it at the bottom of the screen */
+        bottom: 10px;
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center it properly */
+        z-index: 100;
+        max-width: 80%; /* Limit the width on smaller screens */
+    }
+}

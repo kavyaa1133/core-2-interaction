@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sky Turned Pink</title>
+    <link rel="stylesheet" href="page1styletest.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xeg5cha.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vtj5lna.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Khand:wght@300;400;500;600;700&family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="nav">
+		<a class="nav-link" href="index.html">future</a>
+		<a class="nav-link" href="lori1.html">past</a>
+	</nav>
+
+    <h1>The Sky Turned Pink</h1>
+   
+
+    <section class="verses">
+        <div class="verse" id="one">
+            <p>
+                Is this all it's gonna be?
+                <br> 
+                Gold dust shimmers on my feet
+                <br> 
+                They lay me down and the sky turned pink
+                <br>
+                 Is this all it's gonna be?
+                <br> 
+                Gold dust shimmers on my feet
+                <br> 
+                They lay me down and the sky turned pink (Oyy hoye; ayy)
+            </p>
+        </div>
+        <div class="verse" id="two">
+            <p>
+                Umraan main saariyaan ji layiyaan (Pink; oyy)
+                <br>
+                Roshni main saariyaan pi layiyaan (Oyy, hoye; ayy)
+                <br>
+                Rangaan di kahaaniyaan chakh-chakh ke (Pink; oyy)
+                <br>
+                Main te haan ungliyaan chat gayiyaan
+            </p>
+        </div>
+        <div class="verse" id="three">
+            <p>
+                Darta hai raaton ka andhera
+                <br>
+                Duum daba ke voh to bhaagega jab aayega savera
+                <br>
+                Aasmaan mein suraakh tu bana de
+                <br>
+                Uss paar hi to hai na din ka basera
+            </p>
+        </div>
+        <div class="verse" id="four">
+            <p>
+                Walking on a tightrope, singing in a lifeboat
+                <br>
+                Why they wanna medicate me like a sick joke?
+                <br>
+                And I don't wanna let go never mind, choddo (I don't wanna let it go)
+                <br>
+                And if I get a tummy ache, yeah, I'll just take a Pepto (Pink)
+            </p>
+        </div>
+        <div class="verse" id="five">
+            <p>
+                Oyy, hoye (Ayy)
+                <br>
+                Umraan main saariyaan ji layiyaan (Pink; oyy)
+                <br>
+                Roshni main saariyaan pi layiyaan (Oyy, hoye; ayy)
+                <br>
+                Rangaan di kahaaniyaan chakh-chakh ke (Pink; oyy)
+                <br>
+                Main te haan ungliyaan chat gayiyaan
+            </p>
+        </div>
+        <div class="verse" id="six">
+            <p>
+                Fall right out, I ate a mouthful of clouds
+                <br>
+                So don't worry about me now, worry about me now
+                <br>
+                We both know I've been here all along
+                <br>
+                So don't worry when I'm gone, worry when I'm gone
+            </p>
+        </div>
+    </section>
+    
+    <section class="constellation">
+        <svg class="svg" width="150%" height="150%" viewBox="0 0 130 130"> <!-- Increase the viewBox size -->
+            <!-- Constellation Shape (Lines between stars) -->
+            <polygon points="40,90 60,60 80,70 90,60 105,50 125,70" class="constellation" />
+            
+            <!-- Stars as circles with smaller radius -->
+            <circle cx="40" cy="90" r="2" class="star" onclick="showVerse('one')"></circle>
+            <circle cx="60" cy="60" r="2" class="star" onclick="showVerse('two')"></circle>
+            <circle cx="80" cy="70" r="2" class="star" onclick="showVerse('three')"></circle>
+            <circle cx="90" cy="60" r="2" class="star" onclick="showVerse('four')"></circle>
+            <circle cx="105" cy="50" r="2" class="star" onclick="showVerse('five')"></circle>
+            <circle cx="125" cy="70" r="2" class="star" onclick="showVerse('six')"></circle>
+        </svg>
+    </section>
+    
+<script src="scripts.js"></script>
+
+<h3>with every click, align the unfolding lyrics with the audio</h3>
+
+<audio controls src="For-Aisha.mp3" class="audio-player"></audio>
+
+</body>
+</html>

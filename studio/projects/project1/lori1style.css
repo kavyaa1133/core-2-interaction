@@ -1,0 +1,242 @@
+body {
+    background: linear-gradient(45deg, #3399ff, #79ade1, #f3bd86, #ffcc99);
+    background-size: 200% 200%;
+    animation: gradientShift 15s ease infinite;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    background-color: lightsalmon;
+    color: white;
+    font-family: "Eczar", serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: white;
+    box-shadow: 0 0 10px lightsalmon;
+    color: lightsalmon;
+}
+
+h1 {
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 90px;
+    text-align: center;
+    color: beige;
+    margin-top: 28px;
+}
+
+/* Style the new polygon (constellation lines) */
+.constellation-three {
+    fill: none; /* No fill, just the shape outline */
+    stroke: #ffffff; /* White stroke for the outline */
+    stroke-width: 0.5; /* Thin lines */
+    margin-right: auto;
+    margin-left: auto;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -2%;
+    top: -57%;
+}
+
+/* Style the stars (dots) */
+.star-three {
+    fill: white; /* White color for the stars */
+    cursor: pointer;
+}
+
+/* Change the color of the first star */
+.star-three:first-of-type {
+    fill: #FFD700; 
+}
+
+.verse {
+    display: none;
+    position: fixed;
+    transform: translate(-50%,-50%);
+}
+
+.verse#one {
+    left: 24%;
+    top: 59%;
+}
+
+.verse#two {
+    left: 43%;
+    top: 37%;
+}
+
+.verse#three {
+    left: 48%;
+    top: 76%;
+}
+
+.verse#four {
+    left: 64%;
+    top: 41%;
+}
+
+.verse#five {
+    left: 66%;
+    top: 74%;
+}
+
+.verses{
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #f1edd9;
+    font-size: 28px;
+    line-height: 165%;
+    letter-spacing: 1.3px;
+    position:relative;
+    height: 70%;
+    width: 100%;
+    top: 20%;
+}
+
+h3 {
+    position: absolute;
+    bottom: 69px; /* Adjust to position it above the audio player */
+    left: 29px;   /* Align it with the left side of the page (same as the audio player) */
+    font-family: "Eczar", serif;
+    letter-spacing: 1.4px;
+    color: #ffe44d;  
+    font-size: 16.5px;  /* Adjust size as needed */
+    line-height: 1.4;
+    font-weight: 400;
+    z-index: 101; /* Ensure it stays above other content */
+}
+
+.audio-player {
+    position: absolute;
+    bottom: 20px;  /* Position from the bottom */
+    left: 20px;    /* Position from the left */
+    z-index: 100;  /* Ensure it's on top of other content if necessary */
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px; /* Adjust h1 size for tablets */
+        margin-top: 20px; /* Reduce top margin */
+    }
+
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    /* Style the new polygon (constellation lines) */
+    .constellation-three {
+    fill: none;     
+    stroke: #ffffff; 
+    stroke-width: 0.5; 
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -2%;
+    top: -45%;
+    }
+
+    /* Style the stars (dots) */
+    .star-three {
+    fill: white; /* White color for the stars */
+    cursor: pointer;
+    }
+
+    .verse#one {
+        left: 25%;
+        top: 59%;
+    }
+    
+    .verse#two {
+        left: 43%;
+        top: 37%;
+    }
+    
+    .verse#three {
+        left: 48%;
+        top: 63%;
+    }
+    
+    .verse#four {
+        left: 64%;
+        top: 41%;
+    }
+    
+    .verse#five {
+        left: 68%;
+        top: 65%;
+    }       
+
+.verses{
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #f1edd9;
+    font-size: 13px;
+    line-height: 165%;
+    letter-spacing: 1.3px;
+    position:relative;
+    height: 70%;
+    width: 100%;
+    top: 20%;
+    }
+
+    .audio-player {
+        width: 80%;
+        left: 10%;
+        bottom: 10px;
+    }
+}

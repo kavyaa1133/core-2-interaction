@@ -1,0 +1,177 @@
+body {
+    background-color: #001f3d; /* Dark blue to mimic the night sky */
+    height: 120vh;
+    margin: 0;
+    font-family: "shiva", sans-serif;
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    background-color: white;
+    color: #001f3d;
+    font-family: "Eczar", serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #001f3d;
+    box-shadow: 0 0 10px white;
+    color: white;
+}
+
+/* Style for the audio player */
+.audio-player {
+    display: block;
+    margin: 20px auto; /* Centers the player horizontally */
+    max-width: 80%; /* Restrict the max width */
+}
+
+h1 {
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+    margin-top: 40px;
+}
+
+/* Style for the subtitles (h2) */
+h2 {
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    color: beige;
+    font-size: 1.2em;  
+    margin-bottom: -22px; /* Space between subtitle and content */
+    margin-top: -30px;
+    text-align: center; 
+}
+  
+/* Style for the boxes */
+  .container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+  .box {
+    width: 60%; /* Adjust width of each box */
+    text-align: center;
+  }
+  
+
+.lyrics-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 75px;
+}
+
+.lyrics1-text, .lyrics2-text {
+    background-color: #ffffff;
+    color: #001f3d;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    width: 45%; /* To make them take up roughly half the screen each */
+    box-sizing: border-box;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    overflow-y: scroll;
+}
+
+.lyrics1-text p, .lyrics2-text p {
+    margin: 10px 0;
+}
+
+.lyrics1-text {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+}
+
+.lyrics2-text {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+}
+
+
+
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media screen and (max-width: 768px) {
+    .nav {
+        position: fixed; /* Fix it at the top */
+        top: 20px; /* Keep some space from the top */
+        left: 0;
+        right: 0;
+        width: 100%; /* Take up full width */
+        display: flex;
+        justify-content: space-between; /* Keep links at both ends */
+        padding: 0 20px;
+        box-sizing: border-box;
+        z-index: 1000; /* Ensure it stays above other content */
+    }
+    
+    .nav-link {
+        background-color: white;
+        color: #001f3d;
+        font-family: "Eczar", serif;
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+    
+    .nav-link:hover {
+        background-color: #001f3d;
+        box-shadow: 0 0 10px white;
+        color: white;
+    }
+
+    /* Adjust the main heading */
+    h1 {
+        font-size: 20px; /* Reduce size for smaller screens */
+        margin-top: 20px;
+    }
+
+    /* Make the audio player smaller */
+    .audio-player {
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+
+    /* Stack the lyrics containers vertically */
+    .lyrics-container {
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+
+    .lyrics1-text, .lyrics2-text {
+        width: 90%; /* Increase width for readability */
+        margin-bottom: 20px;
+    }
+
+    /* Make the font size for the lyrics smaller */
+    .lyrics1-text, .lyrics2-text {
+        font-size: 12px;
+    }
+}

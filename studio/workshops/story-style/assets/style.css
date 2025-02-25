@@ -1,0 +1,56 @@
+/* general styles */
+
+body {
+    background-color: chocolate; 
+    color: beige;
+    padding: 30px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-family: "cheee-peeenutt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+}
+
+::selection {
+    color: rgb(34, 255, 0);
+    text-shadow: 0 0 10px rgb(34, 255, 0);
+}
+
+.nav {
+    margin-bottom: 150px;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    background-color: pink;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    box-shadow: 0 0 10px pink;
+    color: pink;
+}
+
+.main {
+    font-size: 40px;
+}
+
+.home {
+    .main {
+    font-size: 100px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+}

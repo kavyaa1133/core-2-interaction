@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khuli-Khuli Aankhein</title>
+    <link rel="stylesheet" href="lori2style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xeg5cha.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vtj5lna.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Khand:wght@300;400;500;600;700&family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="nav">
+		<a class="nav-link" href="lori1.html">future</a>
+		<a class="nav-link" href="lori3.html">past</a>
+	</nav>
+    
+    <h1>Khuli-Khuli Aankhein</h1>
+
+    <section class="verses">
+        <div class="verse" id="one">
+            <p>
+                Socha ye tha maine choti se
+                <br> 
+                सोचा ये था मैंने छोटी से
+                <br> 
+                So I thought
+            </p>
+        </div>
+        <div class="verse" id="two">
+            <p>
+                Chhaati ki gullak hai
+                <br> 
+                छठी की गुल्लक है
+                <br> 
+                My chest is like a piggy bank
+            </p>
+        </div>
+        <div class="verse" id="three">
+            <p>
+                Kharcheinge hauley se (shoo)
+                <br> 
+                खार्चिंगे हौले से (शू)
+                <br> 
+                So we should spend it carefully
+            </p>
+        </div>
+        <div class="verse" id="four">
+            <p>
+                Khuli-khuli aankhein yeh
+                <br> 
+                [ब्रिज: नूरन सिस्टर्स]
+                <br> 
+                Open up your eyes
+            </p>
+        </div>
+        <div class="verse" id="five">
+            <p>
+                Khaabon ka jharokha hai
+                <br> 
+                खुली-खुली आंखें ये
+                <br> 
+                They are windows through which you can see your dreams
+            </p>
+        </div>
+    </section>
+
+
+    <section class="constellation-four">
+        <svg class="svg" width="150%" height="150%" viewBox="0 0 200 200">
+            <!-- Constellation Lines -->
+            <polyline points="50,30 90,70 110,120 130,60 160,150" class="constellation-four" />
+    
+            <!-- Stars -->
+            <circle cx="50" cy="30" r="3.5" class="star-four" onclick="showVerse('one')"></circle> 
+            <circle cx="90" cy="70" r="2.8" class="star-four" onclick="showVerse('two')"></circle>
+            <circle cx="110" cy="120" r="3" class="star-four" onclick="showVerse('three')"></circle>
+            <circle cx="130" cy="60" r="2.5" class="star-four" onclick="showVerse('four')"></circle>
+            <circle cx="160" cy="150" r="3.8" class="star-four" onclick="showVerse('five')"></circle> 
+        </svg>
+    </section>
+    
+    <script src="scripts.js"></script>
+
+    <h3>with every click, align the unfolding lyrics with the audio</h3>
+
+    <audio controls src="For-Aisha.mp3" class="audio-player"></audio>
+
+ </body>
+</html>
