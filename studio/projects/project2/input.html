@@ -7,50 +7,59 @@
     <link rel="stylesheet" href="assets/input.css">
 </head>
 <body>
-    <div class="input book-spread">
-        <!-- Left Page -->
-        <div class="left-page">
-            <h2>How are you feeling?</h2>
-            <p>Select your emotion and intensity to untie the knots in your mind.</p>
+
+    <div class="input">
+
+        <nav class="nav">
+            <a class="nav-link" href="index.html">home</a>
+        </nav>
+
+        <div class="book-spread">
+            <!-- Left Page -->
+            <div class="left-page">
+                <h2>How are you feeling?</h2>
+                <p>Select your emotion and intensity to untie the knots in your mind.</p>
+            </div>
+
+            <!-- Right Page -->
+            <div class="right-page">
+                    <label for="emotion">Select Emotion:</label>
+                    <select id="emotion" name="emotion" required>
+                        <option value="">Choose an Emotion</option>
+                        <option value="joy">joy</option>
+                        <option value="melancholy">melancholy</option>
+                        <option value="frustration">frustration</option>
+                        <option value="awe">awe</option>
+                        <option value="guilt">guilt</option>
+                        <option value="grief">grief</option>
+                        <option value="nostalgia">nostalgia</option>
+                        <option value="hope">hope</option>
+                        <option value="disappointment">disappointment</option>
+                        <option value="lonliness">lonliness</option>
+                        <option value="embarrassment">embarrassment</option>
+                        <option value="confusion">confusion</option>
+                        <option value="gratitude">gratitude</option>
+                        <option value="resentment">resentment</option>
+                        <option value="relief">relief</option>
+                        <option value="curiosity">curiosity</option>
+                        <option value="empathy">empathy</option>
+                        <option value="anxious">anxious</option>
+                        <option value="calm">calm</option>
+                    </select>
+
+                    <label for="intensity">Slide the Intensity:</label>
+                    <input name="intensity" type="range" value="1" min="1" max="2">
+
+                    <!-- Intensity Labels -->
+                    <div class="slider-labels">
+                        <span class="low-label">Low</span>
+                        <span class="high-label">High</span>
+                    </div>
+
+                    <button name="submit">Submit</button>
+            </div>
         </div>
-
-        <!-- Right Page -->
-        <div class="right-page">
-                <label for="emotion">Select Emotion:</label>
-                <select id="emotion" name="emotion" required>
-                    <option value="">Choose an Emotion</option>
-                    <option value="joy">joy</option>
-                    <option value="melancholy">melancholy</option>
-                    <option value="frustration">frustration</option>
-                    <option value="awe">awe</option>
-                    <option value="guilt">guilt</option>
-                    <option value="grief">grief</option>
-                    <option value="nostalgia">nostalgia</option>
-                    <option value="hope">hope</option>
-                    <option value="disappointment">disappointment</option>
-                    <option value="lonliness">lonliness</option>
-                    <option value="embarrassment">embarrassment</option>
-                    <option value="confusion">confusion</option>
-                    <option value="gratitude">gratitude</option>
-                    <option value="resentment">resentment</option>
-                    <option value="relief">relief</option>
-                    <option value="curiosity">curiosity</option>
-                    <option value="empathy">empathy</option>
-                    <option value="anxious">anxious</option>
-                    <option value="calm">calm</option>
-                </select>
-
-                <label for="intensity">Slide the Intensity:</label>
-                <input name="intensity" type="range" value="1" min="1" max="2">
-
-                <!-- Intensity Labels -->
-                <div class="slider-labels">
-                    <span class="low-label">Low</span>
-                    <span class="high-label">High</span>
-                </div>
-
-                <button name="submit">Submit</button>
-        </div>
+        
     </div>
 
     <div class="output">

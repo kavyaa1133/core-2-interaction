@@ -43,11 +43,12 @@ submitButton.addEventListener('click', () => {
         output.innerHTML = `
           <nav class="nav">
 		      <a class="nav-link" href="input.html">refresh</a>
+              <a class="nav-link" href="index.html">home</a>
 	        </nav>
 
           <div class="book-spread">
           <div class="left-page">
-          <div class="quote">${matchingEntry.quote}</div>
+          <div class="quote">“${matchingEntry.quote}”</div>
           </div>
 
           <div class="right-page">
