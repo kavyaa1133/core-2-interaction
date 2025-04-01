@@ -1,0 +1,268 @@
+[
+  {
+    "emotion": "joy",
+    "intensity": 1,
+    "title": "j • oy",
+    "description": "happiness and lightness that uplifts the spirit",
+    "quote": "a burst of joy fills your heart in unexpected ways."
+  },
+  {
+    "emotion": "joy",
+    "intensity": 2,
+    "title": "j • oy",
+    "description": "happiness and lightness that uplifts the spirit",
+    "quote": "elation is the feeling that wakes you up and makes you want to sing."
+  },
+  {
+    "emotion": "melancholy",
+    "intensity": 1,
+    "title": "me • lan • cho • ly",
+    "description": "lingering sadness tinted with reflection",
+    "quote": "some days, the clouds feel closer, but the sun still peeks through."
+  },
+  {
+    "emotion": "melancholy",
+    "intensity": 2,
+    "title": "me • lan • cho • ly",
+    "description": "lingering sadness tinted with reflection",
+    "quote": "the sadness is not just in the heart; it is in the air we breathe."
+  },
+  {
+    "emotion": "frustration",
+    "intensity": 1,
+    "title": "fr • us • tration",
+    "description": "tension of unmet expectations or obstacles in your way",
+    "quote": "sometimes, frustration is just a sign of your growing patience."
+  },
+  {
+    "emotion": "frustration",
+    "intensity": 2,
+    "title": "fr • us • tration",
+    "description": "tension of unmet expectations or obstacles in your way",
+    "quote": "frustration is the self-imposed prison of expectation."
+  },
+  {
+    "emotion": "awe",
+    "intensity": 1,
+    "title": "aw • e",
+    "description": "sense of wonder and admiration at something vast",
+    "quote": "every now and then, something simple leaves you in awe."
+  },
+  {
+    "emotion": "awe",
+    "intensity": 2,
+    "title": "aw • e",
+    "description": "sense of wonder and admiration at something vast",
+    "quote": "awe is the emotion that reminds us how small we are in a vast universe."
+  },
+  {
+    "emotion": "guilt",
+    "intensity": 1,
+    "title": "gu • i • lt",
+    "description": "heavy awareness of having done something wrong",
+    "quote": "the quiet sting of guilt lingers long after the mistake is forgotten."
+  },
+  {
+    "emotion": "guilt",
+    "intensity": 2,
+    "title": "gu • i • lt",
+    "description": "heavy awareness of having done something wrong",
+    "quote": "guilt is the conscience telling us we’ve strayed from our true self."
+  },
+  {
+    "emotion": "grief",
+    "intensity": 1,
+    "title": "gr • ief",
+    "description": "deep sorrow that follows loss and ache",
+    "quote": "although the world keeps turning, a part of us stays still with the ones we’ve lost."
+  },
+  {
+    "emotion": "grief",
+    "intensity": 2,
+    "title": "gr • ief",
+    "description": "deep sorrow that follows loss and ache",
+    "quote": "grief is the price we pay for love."
+  },
+  {
+    "emotion": "nostalgia",
+    "intensity": 1,
+    "title": "nos • tal • gia",
+    "description": "bittersweet longing for the past, rich with memory",
+    "quote": "there’s comfort in nostalgia, even when it tugs at the heart."
+  },
+  {
+    "emotion": "nostalgia",
+    "intensity": 2,
+    "title": "nos • tal • gia",
+    "description": "bittersweet longing for the past, rich with memory",
+    "quote": "nostalgia is the bittersweet ache of wanting to return to what can never be."
+  },
+  {
+    "emotion": "hope",
+    "intensity": 1,
+    "title": "h • op • e",
+    "description": "belief that things can get better",
+    "quote": "even the smallest hope can cast a shadow on doubt."
+  },
+  {
+    "emotion": "hope",
+    "intensity": 2,
+    "title": "h • op • e",
+    "description": "belief that things can get better",
+    "quote": "hope is a candle in the dark, small yet powerful enough to light the way."
+  },
+  {
+    "emotion": "disappointment",
+    "intensity": 1,
+    "title": "dis • appoint • ment",
+    "description": "letdown when reality falls short of expectations",
+    "quote": "disappointment teaches us that sometimes the journey is more important than the destination."
+  },
+  {
+    "emotion": "disappointment",
+    "intensity": 2,
+    "title": "dis • appoint • ment",
+    "description": "letdown when reality falls short of expectations",
+    "quote": "disappointment can sting, but it clears the path for something better."
+  },
+  {
+    "emotion": "lonliness",
+    "intensity": 1,
+    "title": "lonli • ness",
+    "description": "feeling disconnected or unseen",
+    "quote": "loneliness is a momentary pause before the world rushes back in."
+  },
+  {
+    "emotion": "lonliness",
+    "intensity": 2,
+    "title": "lonli • ness",
+    "description": "feeling disconnected or unseen",
+    "quote": "loneliness is not about being alone; it’s about feeling lost in a crowd."
+  },
+  {
+    "emotion": "embarrassment",
+    "intensity": 1,
+    "title": "em • barrass • ment",
+    "description": "discomfort from being exposed or judged",
+    "quote": "sometimes, it is healthy to laugh off embarrassment, as if the moment never happened."
+  },
+  {
+    "emotion": "embarrassment",
+    "intensity": 2,
+    "title": "em • barrass • ment",
+    "description": "discomfort from being exposed or judged",
+    "quote": "embarrassment is the fear that we are not as perfect as we pretend."
+  },
+  {
+    "emotion": "confusion",
+    "intensity": 1,
+    "title": "con • fusi • on",
+    "description": "state of not understanding something fully",
+    "quote": "a little confusion can spark curiosity, leading to deeper insights."
+  },
+  {
+    "emotion": "confusion",
+    "intensity": 2,
+    "title": "con • fusi • on",
+    "description": "state of not understanding something fully",
+    "quote": "confusion is the fog before clarity, the unknown before understanding."
+  },
+  {
+    "emotion": "gratitude",
+    "intensity": 1,
+    "title": "gra • ti • tude",
+    "description": "warm appreciation for what you receive",
+    "quote": "gratitude shifts our perspective, turning ordinary moments into blessings."
+  },
+  {
+    "emotion": "gratitude",
+    "intensity": 2,
+    "title": "gra • ti • tude",
+    "description": "warm appreciation for what you receive",
+    "quote": "gratitude is the soil where happiness grows."
+  },
+  {
+    "emotion": "resentment",
+    "intensity": 1,
+    "title": "re • sent • ment",
+    "description": "bitterness toward unfairness or past hurts",
+    "quote": "letting go of resentment frees the heart."
+  },
+  {
+    "emotion": "resentment",
+    "intensity": 2,
+    "title": "re • sent • ment",
+    "description": "bitterness toward unfairness or past hurts",
+    "quote": "resentment is the silent poison that poisons not just the mind, but the soul."
+  },
+  {
+    "emotion": "relief",
+    "intensity": 1,
+    "title": "re • lief",
+    "description": "exhale that comes when tension eases",
+    "quote": "sometimes, relief is quiet – the moment after tension fades."
+  },
+  {
+    "emotion": "relief",
+    "intensity": 2,
+    "title": "re • lief",
+    "description": "exhale that comes when tension eases",
+    "quote": "relief is the breath after holding it in for too long."
+  },
+  {
+    "emotion": "curiosity",
+    "intensity": 1,
+    "title": "cur • io • sity",
+    "description": "pull of wanting to know more",
+    "quote": "curiosity is the small itch that leads to grand explorations."
+  },
+  {
+    "emotion": "curiosity",
+    "intensity": 2,
+    "title": "cur • io • sity",
+    "description": "pull of wanting to know more",
+    "quote": "curiosity is the spark that ignites the fire of discovery."
+  },
+  {
+    "emotion": "empathy",
+    "intensity": 1,
+    "title": "em • path • y",
+    "description": "ability to understand another’s emotions",
+    "quote": "empathy helps us understand, even when words fall short."
+  },
+  {
+    "emotion": "empathy",
+    "intensity": 2,
+    "title": "em • path • y",
+    "description": "ability to understand another’s emotions",
+    "quote": "empathy is the ability to feel another's pain as though it were your own."
+  },
+  {
+    "emotion": "anxious",
+    "intensity": 1,
+    "title": "an • x • ious",
+    "description": "restless unease fueled by uncertainty",
+    "quote": "take a deep breath and let it go."
+  },
+  {
+    "emotion": "anxious",
+    "intensity": 2,
+    "title": "an • x • ious",
+    "description": "restless unease fueled by uncertainty",
+    "quote": "anxiety does not empty tomorrow of its sorrows, but only empties today of its strength."
+  },
+  {
+    "emotion": "calm",
+    "intensity": 1,
+    "title": "cal • m",
+    "description": "peace that soothes the mind and body",
+    "quote": "peace begins with a smile."
+  },
+  {
+    "emotion": "calm",
+    "intensity": 2,
+    "title": "cal • m",
+    "description": "peace that soothes the mind and body",
+    "quote": "the mind is everything. what you think you become."
+  }
+]

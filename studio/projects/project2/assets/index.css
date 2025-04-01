@@ -1,0 +1,44 @@
+/* styles.css */
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(236, 230, 184);
+  font-family: 'Georgia', serif;
+}
+
+.book-cover {
+  width: 400px; /* Enlarged book cover */
+  height: 600px;
+  background: #fef4e5;
+  border: 2px solid rgb(144, 111, 62);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgb(144, 111, 62);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-cover h1 {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 60px;
+  color: burlywood;
+}
+
+
+/* Hover effect for subtle interaction feedback */
+.book-cover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
