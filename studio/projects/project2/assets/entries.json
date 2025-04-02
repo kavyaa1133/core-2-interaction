@@ -74,14 +74,14 @@
     "intensity": 1,
     "title": "gr • ief",
     "description": "deep sorrow that follows loss and ache",
-    "quote": "although the world keeps turning, a part of us stays still with the ones we’ve lost."
+    "quote": "although the world keeps turning, a part of us stays still with lost ones."
   },
   {
     "emotion": "grief",
     "intensity": 2,
     "title": "gr • ief",
     "description": "deep sorrow that follows loss and ache",
-    "quote": "grief is the price we pay for love."
+    "quote": "grief is the price we pay for love, a lingering cost but proves it was real."
   },
   {
     "emotion": "nostalgia",
@@ -95,7 +95,7 @@
     "intensity": 2,
     "title": "nos • tal • gia",
     "description": "bittersweet longing for the past, rich with memory",
-    "quote": "nostalgia is the bittersweet ache of wanting to return to what can never be."
+    "quote": "the bittersweet reality of wanting to return to what can never be."
   },
   {
     "emotion": "hope",
@@ -109,14 +109,14 @@
     "intensity": 2,
     "title": "h • op • e",
     "description": "the belief that things can get better",
-    "quote": "hope is a candle in the dark, small yet powerful enough to light the way."
+    "quote": "a candle in the dark, small yet powerful enough to light the way."
   },
   {
     "emotion": "disappointment",
     "intensity": 1,
     "title": "dis • appoint • ment",
     "description": "letdown when reality falls short of expectations",
-    "quote": "disappointment teaches us that sometimes the journey is more important than the destination."
+    "quote": "disappointment reminds us the journey matters more than the end."
   },
   {
     "emotion": "disappointment",
@@ -144,7 +144,7 @@
     "intensity": 1,
     "title": "em • barrass • ment",
     "description": "discomfort from being exposed or judged",
-    "quote": "sometimes, it is healthy to laugh off embarrassment, as if the moment never happened."
+    "quote": "laugh off embarrassment as if never happened."
   },
   {
     "emotion": "embarrassment",
@@ -172,7 +172,7 @@
     "intensity": 1,
     "title": "gra • ti • tude",
     "description": "warm appreciation for what you receive",
-    "quote": "gratitude shifts our perspective, turning ordinary moments into blessings."
+    "quote": "gratitude shifts perspective, turning ordinary moments into blessings."
   },
   {
     "emotion": "gratitude",
@@ -193,7 +193,7 @@
     "intensity": 2,
     "title": "re • sent • ment",
     "description": "bitterness toward unfairness or past hurts",
-    "quote": "resentment is the silent poison that poisons not just the mind, but the soul."
+    "quote": "resentment is silent poison that poisons the mind and soul."
   },
   {
     "emotion": "relief",
@@ -235,34 +235,34 @@
     "intensity": 2,
     "title": "em • path • y",
     "description": "ability to understand another’s emotions",
-    "quote": "empathy is the ability to feel another's pain as though it were your own."
+    "quote": "empathy; the ability to feel another's pain as if it were your own."
   },
   {
     "emotion": "anxious",
     "intensity": 1,
     "title": "an • x • ious",
     "description": "restless unease fueled by uncertainty",
-    "quote": "take a deep breath and let it go."
+    "quote": "take a deep breath, clear your mind, and gently let it go."
   },
   {
     "emotion": "anxious",
     "intensity": 2,
     "title": "an • x • ious",
     "description": "restless unease fueled by uncertainty",
-    "quote": "anxiety does not empty tomorrow of its sorrows, but only empties today of its strength."
+    "quote": "anxiety empties today of strength, and tomorrow of hope."
   },
   {
     "emotion": "calm",
     "intensity": 1,
     "title": "cal • m",
     "description": "peace that soothes the mind and body",
-    "quote": "peace begins with a smile."
+    "quote": "peace begins with a smile, a simple gesture."
   },
   {
     "emotion": "calm",
     "intensity": 2,
     "title": "cal • m",
     "description": "peace that soothes the mind and body",
-    "quote": "the mind is everything. what you think you become."
+    "quote": "the mind is everything - what you think you become."
   }
 ]

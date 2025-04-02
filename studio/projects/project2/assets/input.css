@@ -74,6 +74,7 @@ select, input[type="range"], button {
 
 button {
     background: burlywood;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: #fff;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -102,6 +103,8 @@ button:hover {
 
 .nav {
     margin-bottom: 20px;
+    display: flex;
+    gap: 538px; /* Adjust space between buttons */
 }
 
 .nav-link {
@@ -129,7 +132,7 @@ button:hover {
     font-style: italic;
     margin-top: 90px; /* Adjust to move it upwards */
     line-height: 40px;
-    margin-left: 10px;
+    margin-left: 3px;
 }
 
 .title {
@@ -141,12 +144,48 @@ button:hover {
 }
 
 .description {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
-    color: #816f40;
+    color: rgb(207, 167, 115);
     text-align: left;
     font-style: normal;
     margin-left: 12px;
     margin-top: -10px;
+}
+
+.dots {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 20px;
+    color: #b20000;
+}
+
+.error {
+    font-size: 5.3rem;
+    text-align: left;
+    color: #b20000;
+    margin-top: 230px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+
+.message {
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #810000;
+    text-align: left;
+    font-style: normal;
+    margin-left: 12px;
+    margin-top: -10px; 
+}
+
+img {
+    width: 70px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 300px;
+    margin-left: 145px;
 }
 

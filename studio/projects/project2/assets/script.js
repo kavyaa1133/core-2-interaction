@@ -42,13 +42,14 @@ submitButton.addEventListener('click', () => {
         input.style.display = 'none';
         output.innerHTML = `
           <nav class="nav">
-		      <a class="nav-link" href="input.html">refresh</a>
-              <a class="nav-link" href="index.html">home</a>
+		      <a class="nav-link" href="input.html">Different Feel - Reset</a>
+              <a class="nav-link" href="index.html">Home</a>
 	        </nav>
 
           <div class="book-spread">
           <div class="left-page">
           <div class="quote">“${matchingEntry.quote}”</div>
+          <img src="assets/fingers.png" alt="illustration"/>
           </div>
 
           <div class="right-page">
@@ -58,6 +59,29 @@ submitButton.addEventListener('click', () => {
         `;
     } else {
         input.style.display = 'none';
-        output.innerHTML = `<div class="message"> Nothing Found, Try Again! </div>`;
+        output.innerHTML = `
+        <nav class="nav">
+		      <a class="nav-link" href="input.html">Different Feel - Reset</a>
+              <a class="nav-link" href="index.html">Home</a>
+	    </nav>
+        
+        <div class="book-spread">
+          
+        <div class="left-page">
+          <div class="dots"> • • • • • </div>
+        </div>
+          
+        <div class="right-page">
+          <div class="error"> er • r • or </div>
+
+        <div class="message"> 
+          every emotion deserves to be detected 
+          <br>
+          <br>
+          your page is still blank 
+          <br>
+          — try again and let your feelings be heard </div>
+        </div>
+        `;
     }
 })
