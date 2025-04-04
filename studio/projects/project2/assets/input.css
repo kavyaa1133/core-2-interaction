@@ -70,6 +70,7 @@ select, input[type="range"], button {
     font-size: 1rem;
     max-width: 100%; /* Ensures it doesn't exceed the container */
     box-sizing: border-box; /* Includes padding in width calculation */
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 button {
