@@ -7,13 +7,36 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    font-family: "code-saver", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 23px;
+    font-style: italic;
+    margin: 20px 0 10px;
+    color: blanchedalmond;
+}
+
+h3 {
+    font-size: 26px;
+    margin: 20px 0 10px;
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 4px;
+    letter-spacing: 10px;
 }
 
 header, main {
     width: 200%;
-	font-family: "code-saver", sans-serif;
-	font-weight: 400;
-	font-style: normal;
 }
 
 section {
@@ -25,26 +48,24 @@ ul {
     padding: 0;
 }
 
-ul h3 {
-    margin-bottom: 10px;
-}
-
-ul p {
+/* Link Styling */
+a p {
     display: inline-block;
     margin: 5px;
     padding: 10px 15px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     cursor: pointer;
-	color: beige;
+    color: beige;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease;
 }
 
-ul p:hover {
+a p:hover {
     background: rgba(255, 255, 255, 0.5);
     transform: scale(1.05);
 }
 
-ul p:active {
+a p:active {
     transform: scale(0.95);
 }
-
