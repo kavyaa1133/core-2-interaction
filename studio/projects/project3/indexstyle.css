@@ -1,0 +1,112 @@
+body {
+  background-color: #e9e1c0; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "neulis-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  color: #2c5dda; 
+  margin: 0 0 -40px 0; /* Adds space between h1 and evil eye */
+}
+
+.evil-eye {
+  position: relative;
+  width: 700px; 
+  height: 700px; 
+}
+
+.outer-circle, .middle-circle, .inner-circle, .core-circle {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+  transition: filter 0.3s ease; /* Adds a smooth transition to the blur effect */
+}
+
+.outer-circle {
+  width: 525px; 
+  height: 525px; 
+  background: blue;
+}
+
+.middle-circle {
+  width: 350px; 
+  height: 350px; 
+  background: white;
+}
+
+.inner-circle {
+  width: 210px; 
+  height: 210px; 
+  background: lightblue;
+}
+
+.core-circle {
+  width: 105px; 
+  height: 105px; 
+  background: black;
+}
+
+/* Hover effects for each circle */
+.outer-circle:hover {
+  filter: blur(3px); /* Apply a slight blur */
+}
+
+.middle-circle:hover {
+  filter: blur(3px); /* Apply a slight blur */
+}
+
+.inner-circle:hover {
+  filter: blur(3px); /* Apply a slight blur */
+}
+
+.core-circle:hover {
+  filter: blur(3px); /* Apply a slight blur */
+}
+
+.nav {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Align the buttons to the left and right */
+  padding: 0 40px; /* Adds padding for better spacing */
+  box-sizing: border-box;
+}
+
+.nav-link {
+  background-color: #0066b9; 
+  color: #ffffff; 
+  font-size: 17px;
+  font-family: "neulis-sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-link:hover {
+  background-color: #ffffff; 
+  color: #0066b9; 
+  box-shadow: 0 0 15px #0066b9; 
+}
+
+

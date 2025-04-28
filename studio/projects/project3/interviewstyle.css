@@ -1,0 +1,42 @@
+body {
+    background-color: #0066b9;
+    margin: 0;
+    padding: 10px 250px; /* bigger space around the page */
+    font-family: "Sitka Banner", serif;
+    color: #e9e1c0;
+  }
+  
+  h1 {
+    font-size: 90px;
+    font-family: "neulis-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center; /* keep just the title centered */
+    margin-bottom: 40px; /* big space below title */
+    margin-top: 24px;
+  }
+  
+  .interview-content {
+    max-width: 800px;
+    margin: 0 auto; /* center the block horizontally */
+  }
+  
+  .qa {
+    margin-bottom: 50px; /* more space between each question-answer */
+  }
+  
+  .speaker {
+    font-weight: bold;
+    color: #e9e1c0;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 20px; /* slightly bigger text for nice readability */
+    font-family: "neulis-sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8; /* more relaxed line spacing */
+    text-align: left; /* text now LEFT aligned */
+  }
+  
