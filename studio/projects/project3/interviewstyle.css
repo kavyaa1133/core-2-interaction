@@ -24,13 +24,7 @@ body {
   .qa {
     margin-bottom: 50px; /* more space between each question-answer */
   }
-  
-  .speaker {
-    font-weight: bold;
-    color: #e9e1c0;
-    margin-bottom: 10px;
-  }
-  
+
   p {
     font-size: 20px; /* slightly bigger text for nice readability */
     font-family: "neulis-sans", sans-serif;

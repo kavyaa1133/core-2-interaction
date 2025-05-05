@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 h1 {
     text-align: center;
     font-family: "neulis-sans", sans-serif;
-    color: #ffffff;
+    color: blue;
     font-size: 2rem;
     margin-bottom: 40px;
     margin-top: 50px;
@@ -20,12 +20,12 @@ h1 {
 }
 
 .grid-item {
-    background-color: #f9f9f9;
+    background-color: #091f59;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     font-family: "neulis-sans", sans-serif;
-    color: #091f59;
+    color: #f9f9f9;
     line-height: 1.7;
     filter: blur(4px); /* apply blur by default */
     transition: filter 0.3s ease; /* smooth transition */
@@ -54,7 +54,7 @@ h1 {
 }
 
 .nav-link {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: "neulis-sans", sans-serif;
     font-size: 1rem;

@@ -6,36 +6,69 @@
     <title>Everyday Shields</title>
     <link rel="stylesheet" href="indexstyle.css">
     <link rel="stylesheet" href="https://use.typekit.net/nwj0syg.css">
-  </head>
+</head>
 <body>
     <div class="container">
         <h1>Everyday Shields for Women</h1>
-        <div class="evil-eye">
-            <div class="outer-circle" onclick="goToEntry('outer')"></div>
-            <div class="middle-circle" onclick="goToEntry('middle')"></div>
-            <div class="inner-circle" onclick="goToEntry('inner')"></div>
-            <div class="core-circle" onclick="goToEntry('core')"></div>
+        
+        <div class="about-content">          
+            <p>Everyday Shields is a living archive of care — a collection of small rituals, objects, and stories that young women carry with them as they navigate city life.</p>
+            <p>From real conversations and shared experiences, this website gathers emotional carriers, physical items, grounding rituals, and personal stories — both light and heavy — that act as invisible shields against the noise, unpredictability, and vulnerabilities of urban life.</p>
+            <p>Inspired by years of working with communities that empower women, Everyday Shields is built for daughters, sisters, friends — especially those living far from home, finding ways to root themselves in new cities. It's a gentle reminder that safety, comfort, and resilience aren't always loud — often, they live in the quietest, most personal things we hold close.</p>
+            <p>We also invite you to be part of this archive: Feel free to share your own everyday shield by filling out <a href="https://forms.gle/bFYeZE4udSqM2Zny6" target="_blank" class="form-link">this Google Form</a> — to continue weaving this collective story of care.</p>    
+            <p>Join us in building a collection of care that speaks to the everyday ways women protect and nurture themselves in the hustle and heart of the city.</p>
         </div>
-      </div>
-      
-      <script>
-      function goToEntry(part) {
-        if (part === 'outer') {
-          window.location.href = 'outer4.html';
-        } else if (part === 'middle') {
-          window.location.href = 'middle3.html';
-        } else if (part === 'inner') {
-          window.location.href = 'inner2.html';
-        } else if (part === 'core') {
-          window.location.href = 'core1.html';
-        }
-      }
-      </script>
 
-<nav class="nav">
-  <a class="nav-link" href="about.html">About</a>
-  <a class="nav-link" href="interview.html">Interview</a>
-</nav>
+        <div class="evil-eye">
+            <div class="outer-circle" onclick="goToEntry('outer')" onmouseover="showText('outer')" onmouseout="hideText()"></div>
+            <div class="middle-circle" onclick="goToEntry('middle')" onmouseover="showText('middle')" onmouseout="hideText()"></div>
+            <div class="inner-circle" onclick="goToEntry('inner')" onmouseover="showText('inner')" onmouseout="hideText()"></div>
+            <div class="core-circle" onclick="goToEntry('core')" onmouseover="showText('core')" onmouseout="hideText()"></div>
+        </div>
+
+        <div id="text-display" class="text-display">
+            <!-- Text will appear here on hover -->
+        </div>
+    </div>
+      
+    <script>
+        function showText(part) {
+            let text = '';
+
+            if (part === 'outer') {
+                text = "Past stories or experiences while living in the city?";
+            } else if (part === 'middle') {
+                text = "Any rituals that keeps you grounded when feeling overwhelmed or anxious?";
+            } else if (part === 'inner') {
+                text = "Physical carriers that helps feel safe or protected in the city?";
+            } else if (part === 'core') {
+                text = "Emotional carriers that helps feel safe or protected in the city?";
+            }
+
+            document.getElementById('text-display').innerText = text;
+            document.getElementById('text-display').style.display = 'block';
+        }
+
+        function hideText() {
+            document.getElementById('text-display').style.display = 'none';
+        }
+        
+        function goToEntry(part) {
+            if (part === 'outer') {
+                window.location.href = 'outer4.html';
+            } else if (part === 'middle') {
+                window.location.href = 'middle3.html';
+            } else if (part === 'inner') {
+                window.location.href = 'inner2.html';
+            } else if (part === 'core') {
+                window.location.href = 'core1.html';
+            }
+        }
+    </script>
+
+    <nav class="nav">
+        <a class="nav-link" href="interview.html">Interview</a>
+    </nav>
 
 </body>
 </html>
